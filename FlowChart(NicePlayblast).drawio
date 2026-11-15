@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="rqcKVIDAcfIPd62E1pa4">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-4" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="開始" vertex="1">
+          <mxGeometry height="60" width="100" x="364" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="終了" vertex="1">
+          <mxGeometry height="60" width="100" x="364" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-13" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-14" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-15" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-16" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="GUI 表示" vertex="1">
+          <mxGeometry height="50" width="100" x="364" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-5" parent="1" style="html=1;strokeWidth=2;shape=manualInput;boundedLbl=1;whiteSpace=wrap;rounded=1;size=26;arcSize=10;" value="ファイルを保存する場所と名前(string)" vertex="1">
+          <mxGeometry height="80" width="100" x="120" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-7" parent="1" style="html=1;strokeWidth=2;shape=manualInput;boundedLbl=1;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" value="SequenceTimeを使用するか(bool)" vertex="1">
+          <mxGeometry height="80" width="100" x="290" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-8" parent="1" style="html=1;strokeWidth=2;shape=manualInput;boundedLbl=1;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" value="どのカメラでPlayblastをするか(string)" vertex="1">
+          <mxGeometry height="80" width="100" x="460" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-12" parent="1" style="html=1;strokeWidth=2;shape=manualInput;boundedLbl=1;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" value="動画のHeight, Width([int, int])" vertex="1">
+          <mxGeometry height="80" width="100" x="630" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-19" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;legacyAnchorPoints=0;" value="PlayBlastを実行" vertex="1">
+          <mxGeometry height="70" width="126" x="344" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-27" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-25" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-20" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="ファイルの保存先が指定されている" vertex="1">
+          <mxGeometry height="100" width="100" x="357" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-22" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-28" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="プロジェクトのルートフォルダを取得" vertex="1">
+          <mxGeometry height="100" width="100" x="520" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="取得したフォルダからMovieフォルダを見つけ、その下にdefault.xxxで書き出し先を指定" vertex="1">
+          <mxGeometry height="100" width="100" x="670" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-36" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-33" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-41" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-40" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-30" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="カメラが指定されている" vertex="1">
+          <mxGeometry height="100" width="100" x="357" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-31" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-30" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-32" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-30">
+          <mxGeometry relative="1" x="-0.1399" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="700" />
+              <mxPoint x="407" y="700" />
+            </Array>
+            <mxPoint x="726.5" y="600" as="sourcePoint" />
+            <mxPoint x="413.5" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-38" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="指定されたカメラで仮のウィンドウを作成" vertex="1">
+          <mxGeometry height="100" width="100" x="357" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-44" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="パネルでの表示物・非表示物を設定" vertex="1">
+          <mxGeometry height="100" width="100" x="357" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-42" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="現在アクティブなパネルを取得" vertex="1">
+          <mxGeometry height="100" width="100" x="520" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="PlayBlastコマンドを実行" vertex="1">
+          <mxGeometry height="100" width="100" x="357" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-48" edge="1" parent="1" source="0kWld_aL1dVrKm--dJWJ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="0kWld_aL1dVrKm--dJWJ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kWld_aL1dVrKm--dJWJ-45" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="既定の引数" vertex="1">
+          <mxGeometry height="60" width="100" x="200" y="1190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
