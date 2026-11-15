@@ -1,4 +1,5 @@
 import maya.cmds as cmds
+import os
 import pathlib
 
 class NicePlayblast:
@@ -196,7 +197,17 @@ class NicePlayblast:
             cmds.warning(f'please enter file path.')
             return None
 
+        # プロジェクトのルートを取得->カレントディレクトリをルートに変更
+        projectRoot=cmds.workspace(query=True, rootDirectory=True)
+        os.chdir(projectRoot)
+        # Moviesに設定されているフォルダの名前を取得->絶対パスにする
+        moviesFolder=cmds.workspace(fileRuleEntry='movie')
+        moviesFullPath=cmds.workspace(expandName=moviesFolder)
+
         savePath=pathlib.Path(savePath)
+        # ファイル名のみが指定されている場合はカレントディレクトリをProjectRoot/moviesに変更
+        if len(savePath.parts)==1:
+            os.chdir(moviesFullPath)
         savePathDir=savePath.parent
         absPath=None
         try:
